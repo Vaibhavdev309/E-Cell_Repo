@@ -1,0 +1,83 @@
+.heroSection {
+    padding-top: 70px;
+    top: 20px;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
+}
+
+
+
+.card {
+    border: 2px solid #808080;
+    border-radius: 15px;
+    flex: 1;
+    width: 30vw;
+    height: 30vw;
+}
+
+.first {
+    background: rgb(54, 0, 255);
+    background: linear-gradient(135deg, rgba(54, 0, 255, 1) 0%, rgba(250, 1, 255, 1) 100%);
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+}
+
+.second img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.third {
+    padding: 2vw;
+    background-color: #d9d9d9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Other CSS rules */
+
+.box {
+    margin: 0.2vw;
+    border-radius: 15px;
+    background-color: #00407a;
+    width: calc(33.33% - 20px);
+    margin: 10px 0px;
+    box-sizing: border-box;
+    transition: background-color 1s;
+    /* Add the transition property here */
+}
+
+/* Other CSS rules */
+.changeColor {
+    background-color: red;
+}
+
+.originalColor {
+    background-color: #00407a;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .first {
+        width: 100%;
+    }
+
+    .second,
+    .third {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}

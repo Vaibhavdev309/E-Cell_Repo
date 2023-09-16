@@ -1,0 +1,11 @@
+.boxContaier {
+    width: 100%;
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    color: #00407a;
+    width: 30%;
+    height: 30%;
+}
