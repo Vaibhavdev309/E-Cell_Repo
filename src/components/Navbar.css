@@ -1,0 +1,119 @@
+.navContainer {
+    width: 100%;
+    background-color: #fff;
+    height: 55px;
+    display: flex;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    position: sticky;
+    z-index: 999;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+
+.navLink i {
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.navLink:hover {
+    background-color: rgba(0, 0, 0, 0.763);
+    color: #fff;
+    border-radius: 13px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+/* button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    white-space: nowrap;
+} */
+
+/* button:hover {
+    background-color: #151516;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+} */
+
+.menuIcon {
+    display: none;
+}
+
+@media screen and (max-width:960px) {
+    .menuIcon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .fas {
+        color: #D9D9D9;
+        display: inline-block;
+        font-size: 40px;
+    }
+
+    .navContainer {
+        border-radius: 13px;
+        z-index: 99;
+    }
+
+    .navLinks {
+        border-radius: 13px;
+        z-index: -1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        list-style: none;
+        height: auto;
+        width: 100%;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        opacity: 0;
+        top: -100%;
+        text-align: center;
+        align-items: stretch;
+        padding: 40px 30px 30px 30px;
+    }
+
+    .navLink {
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /* button {
+        font-size: 1.3rem;
+        background-color: #01959a;
+        color: #fff;
+        padding: 20px 10px;
+    } */
+
+    .navLinksActive {
+        z-index: -1;
+        top: 0;
+        width: 100%;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease-in-out;
+    }
+}
