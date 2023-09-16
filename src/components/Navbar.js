@@ -16,7 +16,6 @@ const Navbar = () => {
       <div className="menuIcon" onClick={handleClick}>
         <i class={click ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
-      {click && <div className="sliderPlaceholder"></div>}
       <div
         className={click ? "navLinks navLinksActive" : "navLinks"}
         onClick={handleClick}

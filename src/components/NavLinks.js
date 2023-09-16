@@ -1,6 +1,6 @@
 const links = [
   {
-    href: "/Profile",
+    href: "/profile",
     name: "Home",
   },
 
