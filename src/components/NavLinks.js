@@ -5,12 +5,12 @@ const links = [
   },
 
   {
-    href: "/Grid",
+    href: "/",
     name: "Grid",
   },
 
   {
-    href: "/https: //www.linkedin.com/in/vaibhav-kumar-maurya-17349928a/",
+    href: "https://www.linkedin.com/in/vaibhav-kumar-maurya-17349928a/",
     name: "LinkedIn",
   },
 ];
