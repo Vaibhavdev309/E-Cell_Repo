@@ -38,22 +38,6 @@
     transition: background-color 0.1s ease-in-out;
 }
 
-/* button {
-    padding: 0.5rem 1rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    border: none;
-    border-radius: 0.3rem;
-    cursor: pointer;
-    white-space: nowrap;
-} */
-
-/* button:hover {
-    background-color: #151516;
-    color: #fff;
-    transition: all 0.2s ease-in-out;
-} */
-
 .menuIcon {
     display: none;
 }
@@ -87,7 +71,6 @@
         width: 100%;
         background-color: #fff;
         position: fixed;
-        top: 0;
         opacity: 0;
         top: -100%;
         text-align: center;
